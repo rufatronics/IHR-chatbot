@@ -1,0 +1,7 @@
+streamlit
+langchain
+langchain-google-genai
+chromadb
+datasets
+python-dotenv
+tiktoken
