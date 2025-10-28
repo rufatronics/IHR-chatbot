@@ -5,3 +5,5 @@ chromadb
 datasets
 python-dotenv
 tiktoken
+langchain-text-splitters
+langchain-community
