@@ -4,7 +4,7 @@ import os
 import streamlit as st
 from datasets import load_dataset
 from langchain_google_genai import ChatGoogleGenerativeAI, GoogleGenerativeAIEmbeddings
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import Chroma
 from langchain_core.prompts import ChatPromptTemplate
 from langchain.chains import create_retrieval_chain
@@ -129,4 +129,3 @@ if rag_chain:
 
 else:
     st.error("RAG system failed to initialize. Check your API key and network connection.")
-
